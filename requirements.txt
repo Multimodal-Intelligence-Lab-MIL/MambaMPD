@@ -1,0 +1,31 @@
+# Core deep-learning stack
+torch>=2.0.0
+torchvision>=0.15.0
+
+# MambaMPD model dependencies
+mamba-ssm>=1.1.0          # selective-scan CUDA kernels for the VSS encoder
+causal-conv1d>=1.1.0      # required by mamba-ssm
+einops>=0.6.0
+timm>=0.9.0
+PyWavelets>=1.4.0         # Haar wavelet transform used by FAA
+monai>=1.2.0              # UnetrUpBlock / UnetrBasicBlock / UnetOutBlock
+segmentation-models-pytorch>=0.3.3   # Focal + Jaccard losses
+
+# Data / utilities
+numpy>=1.23
+scikit-image>=0.19
+scikit-learn>=1.2
+opencv-python-headless>=4.6
+PyYAML>=6.0
+
+# MADOS dataset pipeline (multispectral Sentinel-2)
+rasterio>=1.3            # reads the 11-band .tif patches
+GDAL>=3.3               # osgeo.gdal for the classification masks
+pandas>=1.4             # confusion-matrix tables
+tqdm>=4.6
+tensorboard>=2.10
+
+# Demo app
+streamlit>=1.17
+matplotlib>=3.6
+Pillow>=9.3

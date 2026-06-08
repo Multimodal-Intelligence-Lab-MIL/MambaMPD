@@ -1,0 +1,31 @@
+# MambaMPD training configuration for the M4D SAR oil-spill dataset.
+# These values mirror the protocol in Section 4.2 of the paper.
+
+model:
+  name: mambampd
+  in_chans: 3              # M4D SAR intensities replicated to 3 channels
+  num_classes: 5           # sea surface, oil spill, look-alike, ship, land
+  deep_supervision: true
+  use_faa: true            # Frequency-Aware Augmentation
+  use_ega: true            # Edge-Guided Attention
+  faa_levels: 2            # wavelet decomposition depth J (paper's best)
+  faa_wavelet: db1         # Haar wavelet basis
+  pretrained_ckpt: pretrained/vssmtiny_dp01_ckpt_epoch_292.pth
+
+data:
+  dir_dataset: /path/to/M4D Oil Spill Detection Dataset
+  val_size: 0.05           # 5% of the training split held out for validation
+  # M4D normalisation (single-channel SAR intensity replicated to 3 channels)
+  mean: 0.5185
+  std: 0.197
+
+train:
+  optimizer: sgd
+  momentum: 0.9
+  weight_decay: 1.0e-4
+  learning_rate: 1.0e-3
+  lr_schedule: poly        # power = 0.9
+  batch_size: 8
+  num_epochs: 100
+  loss: focal+jaccard      # hybrid objective (alpha = 0.25, gamma = 2.0)
+  random_state: 3

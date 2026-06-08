@@ -1,0 +1,361 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1780907930231,
+  "projectRoot": "/Users/shuaiyuchen/Downloads/MambaMPD",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "docs"
+    ],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "docs": {
+      "path": "docs",
+      "purpose": "Documentation",
+      "fileCount": 8,
+      "lastAccessed": 1780907930220,
+      "keyFiles": [
+        "Makefile",
+        "app.rst",
+        "conf.py",
+        "index.rst",
+        "make.bat"
+      ]
+    },
+    "training": {
+      "path": "training",
+      "purpose": null,
+      "fileCount": 49,
+      "lastAccessed": 1780907930220,
+      "keyFiles": [
+        "ConvSSM.py",
+        "Dockerfile",
+        "EDA.ipynb",
+        "EGA_lighter.py",
+        "EGA_p.py"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "README.md",
+      "accessCount": 5,
+      "lastAccessed": 1780911677074,
+      "type": "file"
+    },
+    {
+      "path": "training/EGA_p.py",
+      "accessCount": 2,
+      "lastAccessed": 1780909115080,
+      "type": "file"
+    },
+    {
+      "path": "training/WTConv.py",
+      "accessCount": 2,
+      "lastAccessed": 1780909115432,
+      "type": "file"
+    },
+    {
+      "path": "app.py",
+      "accessCount": 2,
+      "lastAccessed": 1780910370077,
+      "type": "file"
+    },
+    {
+      "path": "Dockerfile",
+      "accessCount": 2,
+      "lastAccessed": 1780910405684,
+      "type": "file"
+    },
+    {
+      "path": "train.py",
+      "accessCount": 2,
+      "lastAccessed": 1780910547000,
+      "type": "file"
+    },
+    {
+      "path": "requirements.txt",
+      "accessCount": 2,
+      "lastAccessed": 1780911646423,
+      "type": "file"
+    },
+    {
+      "path": "training/train.py",
+      "accessCount": 1,
+      "lastAccessed": 1780908286662,
+      "type": "file"
+    },
+    {
+      "path": "training/reshape.py",
+      "accessCount": 1,
+      "lastAccessed": 1780908595676,
+      "type": "file"
+    },
+    {
+      "path": "training/swinumamba_idea_2.py",
+      "accessCount": 1,
+      "lastAccessed": 1780908778710,
+      "type": "file"
+    },
+    {
+      "path": "training/dataset.py",
+      "accessCount": 1,
+      "lastAccessed": 1780908826822,
+      "type": "file"
+    },
+    {
+      "path": "training/metrics.py",
+      "accessCount": 1,
+      "lastAccessed": 1780908826865,
+      "type": "file"
+    },
+    {
+      "path": "training/SwinUMamba_enha_all.py",
+      "accessCount": 1,
+      "lastAccessed": 1780908830413,
+      "type": "file"
+    },
+    {
+      "path": "training/EGA_lighter.py",
+      "accessCount": 1,
+      "lastAccessed": 1780908831545,
+      "type": "file"
+    },
+    {
+      "path": "training/SwinUMamba_enha_EGA.py",
+      "accessCount": 1,
+      "lastAccessed": 1780908835781,
+      "type": "file"
+    },
+    {
+      "path": "training/SwinUMamba_enha_EGA_head.py",
+      "accessCount": 1,
+      "lastAccessed": 1780908836150,
+      "type": "file"
+    },
+    {
+      "path": "training/SwinUMamba_enha_EGA_head_decoder.py",
+      "accessCount": 1,
+      "lastAccessed": 1780908836484,
+      "type": "file"
+    },
+    {
+      "path": "training/image_preprocessing.py",
+      "accessCount": 1,
+      "lastAccessed": 1780909340550,
+      "type": "file"
+    },
+    {
+      "path": "training/logger_utils.py",
+      "accessCount": 1,
+      "lastAccessed": 1780909341083,
+      "type": "file"
+    },
+    {
+      "path": "training/seg_models.py",
+      "accessCount": 1,
+      "lastAccessed": 1780909341463,
+      "type": "file"
+    },
+    {
+      "path": "training/inference.py",
+      "accessCount": 1,
+      "lastAccessed": 1780909341678,
+      "type": "file"
+    },
+    {
+      "path": "models/vss_encoder.py",
+      "accessCount": 1,
+      "lastAccessed": 1780909935957,
+      "type": "file"
+    },
+    {
+      "path": "models/faa.py",
+      "accessCount": 1,
+      "lastAccessed": 1780909991174,
+      "type": "file"
+    },
+    {
+      "path": "models/ega.py",
+      "accessCount": 1,
+      "lastAccessed": 1780910046479,
+      "type": "file"
+    },
+    {
+      "path": "models/mambampd.py",
+      "accessCount": 1,
+      "lastAccessed": 1780910136761,
+      "type": "file"
+    },
+    {
+      "path": "models/__init__.py",
+      "accessCount": 1,
+      "lastAccessed": 1780910143465,
+      "type": "file"
+    },
+    {
+      "path": "utils/image_preprocessing.py",
+      "accessCount": 1,
+      "lastAccessed": 1780910159947,
+      "type": "file"
+    },
+    {
+      "path": "utils/logger.py",
+      "accessCount": 1,
+      "lastAccessed": 1780910169781,
+      "type": "file"
+    },
+    {
+      "path": "utils/metrics.py",
+      "accessCount": 1,
+      "lastAccessed": 1780910180575,
+      "type": "file"
+    },
+    {
+      "path": "utils/dataset.py",
+      "accessCount": 1,
+      "lastAccessed": 1780910208057,
+      "type": "file"
+    },
+    {
+      "path": "utils/losses.py",
+      "accessCount": 1,
+      "lastAccessed": 1780910219691,
+      "type": "file"
+    },
+    {
+      "path": "utils/__init__.py",
+      "accessCount": 1,
+      "lastAccessed": 1780910228452,
+      "type": "file"
+    },
+    {
+      "path": "eval.py",
+      "accessCount": 1,
+      "lastAccessed": 1780910288011,
+      "type": "file"
+    },
+    {
+      "path": "config/mambampd_m4d.yaml",
+      "accessCount": 1,
+      "lastAccessed": 1780910299520,
+      "type": "file"
+    },
+    {
+      "path": "mados-master/marinext/train.py",
+      "accessCount": 1,
+      "lastAccessed": 1780911299783,
+      "type": "file"
+    },
+    {
+      "path": "mados-master/utils/dataset.py",
+      "accessCount": 1,
+      "lastAccessed": 1780911326600,
+      "type": "file"
+    },
+    {
+      "path": "mados-master/utils/metrics.py",
+      "accessCount": 1,
+      "lastAccessed": 1780911332245,
+      "type": "file"
+    },
+    {
+      "path": "mados-master/utils/assets.py",
+      "accessCount": 1,
+      "lastAccessed": 1780911332332,
+      "type": "file"
+    },
+    {
+      "path": "mados-master/utils/vscp.py",
+      "accessCount": 1,
+      "lastAccessed": 1780911333298,
+      "type": "file"
+    },
+    {
+      "path": "mados-master/marinext/marinext_wrapper.py",
+      "accessCount": 1,
+      "lastAccessed": 1780911333506,
+      "type": "file"
+    },
+    {
+      "path": "mados-master/marinext/evaluation.py",
+      "accessCount": 1,
+      "lastAccessed": 1780911382526,
+      "type": "file"
+    },
+    {
+      "path": "mados-master/marinext/configs/marinext.tiny.240x240.mados.py",
+      "accessCount": 1,
+      "lastAccessed": 1780911382754,
+      "type": "file"
+    },
+    {
+      "path": "mados-master/utils/test_time_aug.py",
+      "accessCount": 1,
+      "lastAccessed": 1780911466869,
+      "type": "file"
+    },
+    {
+      "path": "utils/mados_dataset.py",
+      "accessCount": 1,
+      "lastAccessed": 1780911500570,
+      "type": "file"
+    },
+    {
+      "path": "utils/mados_metrics.py",
+      "accessCount": 1,
+      "lastAccessed": 1780911527292,
+      "type": "file"
+    },
+    {
+      "path": "utils/mados_assets.py",
+      "accessCount": 1,
+      "lastAccessed": 1780911541300,
+      "type": "file"
+    },
+    {
+      "path": "train_mados.py",
+      "accessCount": 1,
+      "lastAccessed": 1780911593103,
+      "type": "file"
+    },
+    {
+      "path": "eval_mados.py",
+      "accessCount": 1,
+      "lastAccessed": 1780911614140,
+      "type": "file"
+    },
+    {
+      "path": "config/mambampd_mados.yaml",
+      "accessCount": 1,
+      "lastAccessed": 1780911639535,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

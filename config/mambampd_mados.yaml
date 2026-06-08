@@ -1,0 +1,33 @@
+# MambaMPD training configuration for the MADOS multispectral dataset.
+# Integrates the official MADOS / MariNeXt training framework with the MambaMPD model.
+
+model:
+  name: mambampd
+  in_chans: 11             # 11 Sentinel-2 bands resampled to 10 m
+  num_classes: 15          # MADOS thematic categories
+  deep_supervision: true
+  use_faa: true            # Frequency-Aware Augmentation
+  use_ega: true            # Edge-Guided Attention
+  faa_levels: 2
+  faa_wavelet: db1
+  pretrained_ckpt: pretrained/vssmtiny_dp01_ckpt_epoch_292.pth
+  img_size: 256            # MADOS patches (240x240) are resized to 256 (divisible by 32)
+
+data:
+  path: ./data/MADOS       # contains tile folders + splits/{train,val,test}_X.txt
+  ignore_index: -1         # unannotated (sparse) pixels
+
+train:
+  optimizer: adam          # official MADOS framework
+  learning_rate: 2.0e-4
+  weight_decay: 0
+  lr_schedule: multistep   # gamma 0.1
+  lr_steps: [45, 65]
+  batch_size: 4
+  epochs: 100
+  loss: weighted_ce        # weighted cross-entropy (ignore_index=-1) + deep supervision
+  weight_param: 1.03       # gen_weights(class_distr, c)
+  label_smoothing: 0.0
+  vscp: true               # Very Simple Copy-Paste augmentation
+  model_ema: true
+  model_ema_decay: 0.999
