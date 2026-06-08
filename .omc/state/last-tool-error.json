@@ -1,7 +1,0 @@
-{
-  "tool_name": "Read",
-  "tool_input_preview": "{\"file_path\":\"/Users/shuaiyuchen/Downloads/MambaMPD/MambaMPD_major_revision.pdf\",\"pages\":\"1-6\"}",
-  "error": "pdftoppm is not installed. Install poppler-utils (e.g. `brew install poppler` or `apt-get install poppler-utils`) to enable PDF page rendering.",
-  "timestamp": "2026-06-08T08:51:44.813Z",
-  "retry_count": 1
-}
