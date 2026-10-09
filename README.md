@@ -84,3 +84,18 @@ python eval_mados.py --path ./data/MADOS \
 ```bash
 streamlit run app.py
 ```
+## 📜 Citation
+
+If you use this code, please cite the corresponding paper:
+
+```
+@article{
+chen2026mambampd,
+title={MambaMPD: a mamba-driven segmentation framework for marine pollution detection from remote sensing imagery},
+author={Shuaiyu Chen and Wei Han and Peng Ren and Chunbo Luo and Zeyu Fu},
+journal={GIScience & Remote Sensing},
+year={2026},
+url={https://www.tandfonline.com/doi/full/10.1080/15481603.2026.2730893},
+note={}
+}
+```
